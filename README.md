@@ -76,4 +76,12 @@ flutter build apk --release
 
 ---
 
+## Security Notice
+
+This project is for private and educational purposes. Some sensitive configurations 
+are stored client-side for development simplicity. Proper server-side handling 
+is recommended before any public deployment.
+
+---
+
 *Developed by YRJ & Claude*
