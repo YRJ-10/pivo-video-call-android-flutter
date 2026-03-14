@@ -1,0 +1,13 @@
+-keep class com.tencent.** { *; }
+-keep class com.trtc.** { *; }
+-keep class com.tencent.rtmp.** { *; }
+-keep class com.tencent.liteav.** { *; }
+-keep class com.tencent.trtc.** { *; }
+-keep class com.tencent.cloud.** { *; }
+
+-dontwarn com.tencent.**
+-dontwarn com.trtc.**
+-dontwarn com.tencent.rtmp.**
+-dontwarn com.tencent.liteav.**
+-dontwarn com.tencent.trtc.**
+-dontwarn com.tencent.cloud.**

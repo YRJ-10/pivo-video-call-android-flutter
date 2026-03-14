@@ -1,0 +1,47 @@
+name: pivo_vidcall
+description: "video call project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  google_sign_in: ^6.2.1
+
+  # TRTC
+  tencent_calls_uikit: ^3.6.1
+
+  # UI & Utils
+  go_router: ^14.3.0
+  provider: ^6.1.2
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  shared_preferences: ^2.3.2
+  permission_handler: ^11.3.1
+  uuid: ^4.5.1
+
+  audioplayers: ^6.0.0
+  firebase_messaging: ^15.0.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
