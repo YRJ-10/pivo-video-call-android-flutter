@@ -1,5 +1,7 @@
 # Pivo Vidcall
 
+Website version (react js) : https://pivo-vidcalls.web.app
+
 A private video calling app built with Flutter. Supports 1-on-1 and group video calls with a simple, fast, and lightweight UI.
 
 > This is a private application. Not intended for public distribution.
@@ -79,7 +81,7 @@ flutter build apk --release
 ## Security Notice
 
 This project is for private and educational purposes. Some sensitive configurations 
-are stored client-side for development simplicity. Proper server-side handling 
+are stored client-side (mobile or web) for development simplicity. Proper server-side handling 
 is recommended before any public deployment.
 
 ---
